@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+      <html>
+   <head>
+<style>
+   img .logo{width:200px;height:200px;}
+h1{//border:2px solid red;
+    background-color:purple;
+    text-align:center;}
+  .elective{//border:1px solid ;
+          height:250px;
+          width:40%;
+          padding-left:5px;
+          margin:10px;
+          display:block;
+          margin-left: auto;
+             margin-right: auto;
+
+}
+{display:block;
+margin-left:auto;
+margin-right:auto;width:50%;}
+
+   .gallery{ display:flex;
+              flex-wrap:wrap;
+}
+.elective_item{//border:1px solid red;
+                   margin:10px;
+                    display:block;
+
+
+
+
+
+}
+     img{ width:85%;
+         height:75%;
+         padding-right:10px;
+
+
+}
+     .center{display:block;
+             margin-left: auto;
+             margin-right: auto;
+
+}
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default*/
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #154951;
+}
+
+/* Caption text */
+.text {
+  color: #282830;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/6 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #9adae4;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #1b5b65;
+}
+
+/* Fading animation */
+.mySlides {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+</style>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+ //Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+//Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+        <title>About us</title>
+</head>
+<body>
+<h1>About us</h1>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+<img src="rga_logo.png"class="center logo">
+<h2>We have learnt teamwork to achieve success we had a team of:
+<li>Ndem-orji Rosemary</li>
+<li>Beulah Enyi</li>
+<li>Jaja Valerie</li>
+<li>Sandra Nwaohiri</li>
+<li>Osaki Princewill</li>
+<li>Tomba Bob-manuel</li>
+<li>Emmanuella Joseph</li>
+and many others.</h2>
+    <img src="download (1).jpg"class="center" style="width:75%"; "height:75%";>
+
+<br></br>
+
+  <h2>The world is evolving so should we!</h2>
+<p>Innovation and technology elective at RGA requires alot of brain and hard work with alot of determination.
+We have been able to put together this website which is quite tasking.Technology has taken over alot of things basically
+almost everything which makes things alot easier for us to do.Being in this elective has taught alot of things that i cannot forget
+in a hurry and will definitely need in the future.
+     The beautiful displays of all other electives done by us together as a team to bring to you all their progressions
+and products,i wont lie,its quiote stressful but its worth it cause seeing your end product gives a form of relief.
+</p>
+<h3>Why we need Technology.</h3>
+<p>Information technology is important in our lives because it helps to deal with every day's dynamic things. Technology offers various tools to boost development and to exchange information.
+ Both these things are the objective of IT to make tasks easier and to solve many problems.
+Owing to the applications of technology, our standard of living has gone up.
+Our needs are met with greater ease. Technology has brought advancements in agriculture, due to which food produce has increased.
+Technology has changed the way people communicate. Communication systems have evolved from pigeons carrying messages to emails and instant messages that travel long distances in seconds. </p>
+<h4>A GLIMPSE OF WHAT WE'VE BEEN UP TO</h4>
+<img src="IMG_4703.JPG" alt="IMG_4703" clas="center">
+<img src="IMG_4701.JPG" alt="IMG_4701" class="center">
+<img src="IMG_4691.JPG"  alt="IMG_4691" class="center">
+<h3> Technology is best when it brings people together.
+Matt Mullenweg.
+</h3><p>Technology can never be neglected from the twenty-first century because evolution has taken place from the day of creation till date.</p>
+<p>The journey so far has been tiring with our tutor, Mr.Philip Obiorah always pushing us beyond our limits to bring forth a lovely product.
+we would generally want to thank all parents for their patronage to this fair and their encouragement in our elective works. The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.
+Bill Gates.Do have a great day.</p>
+                                                                     <h1>Webpage by lady Rosemary Ndem-orji</h1>
+<a href="index.html">Home</a>
+<li><a href="splash.html"> splash</a></li>
+<li><a href="fashiondesigning.html"> FASHION DESIGNING</a></li>
+<li><a href="wigmaking.html"> WIG MAKING</a></li>
+<li><a href="pastry_and_confectioneries.html"> PASTRY AND CONFECTIONERIES</a></li>
+<li><a href="art.html"> ART</a></li>
+<li><a href="soapmaking.html"> SOAP MAKING</a></li>
+
+<p>
